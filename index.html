@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindfulness App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mindfulness App</h1>
+    </header>
+
+    <main>
+        <section id="quotes-section">
+            <h2>Mindfulness Quotes</h2>
+            <button onclick="fetchQuotes()">Get a Quote</button>
+            <p id="quote">Click the button to see an inspiring quote.</p>
+        </section>
+
+        <section id="breathing-section">
+            <h2>Breathing Exercise</h2>
+            <button onclick="fetchBreathingExercise()">Start Exercise</button>
+            <div id="breathing-display"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
